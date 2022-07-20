@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+}
+.productContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.productContainer>link {
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 20px #c7c7e9;
+    margin: 10px;
+}
+.productContainer > link:hover{
+  background: rgb(250, 171, 140);
+}
+
